@@ -11,55 +11,55 @@ import uniform from '../assets/uniform.jpg';
 const files = [
     {
       title: 'Syllabus',
-      source: 'piano.jpg',
+      source: piano,
         color: "bg-orange"
     },
     {
       title: 'Curriculum',
       source:
-      'child.jpg',
+      book,
         color: "bg-primary"
     },
     {
       title: 'Sports',
       source:
-      'rugby.jpg',
+      rugby,
         color: "bg-pink"
     },
     {
       title: 'Uniforms',
       source:
-      'uniform.jpg',
+      uniform,
         color: "bg-pea"
     },
     {
       title: 'Staff',
       source:
-      'ducks.jpg',
+      ducks,
         color: "bg-secondary"
     },
     {
       title: 'PE',
       source:
-      'sports.jpg',
+      sports,
         color: "bg-sky"
     },
     {
       title: 'Piano',
       source:
-      'piano.jpg',
+      piano,
         color: "bg-yellow"
     },
     {
       title: 'Mission',
       source:
-      'classroom.jpg',
+      classroom,
         color: "bg-purple"
     },
-    // More files...
   ]
 
   export default function Example() {
+    console.log(book)
     return (
       <ul role="list" className="grid gap-1 py-1 bg-white sm:grid-cols-2 lg:grid-cols-4">
         {files.map((file, idx) => (
