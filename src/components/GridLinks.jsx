@@ -11,49 +11,49 @@ import uniform from '../assets/uniform.jpg';
 const files = [
     {
       title: 'Syllabus',
-      source: '/piano.jpg',
+      source: 'piano.jpg',
         color: "bg-orange"
     },
     {
       title: 'Curriculum',
       source:
-      '/child.jpg',
+      'child.jpg',
         color: "bg-primary"
     },
     {
       title: 'Sports',
       source:
-      '/rugby.jpg',
+      'rugby.jpg',
         color: "bg-pink"
     },
     {
       title: 'Uniforms',
       source:
-      '/uniform.jpg',
+      'uniform.jpg',
         color: "bg-pea"
     },
     {
       title: 'Staff',
       source:
-      '/ducks.jpg',
+      'ducks.jpg',
         color: "bg-secondary"
     },
     {
       title: 'PE',
       source:
-      '/sports.jpg',
+      'sports.jpg',
         color: "bg-sky"
     },
     {
       title: 'Piano',
       source:
-      '/piano.jpg',
+      'piano.jpg',
         color: "bg-yellow"
     },
     {
       title: 'Mission',
       source:
-      '/classroom.jpg',
+      'classroom.jpg',
         color: "bg-purple"
     },
     // More files...
