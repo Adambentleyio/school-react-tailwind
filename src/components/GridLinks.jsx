@@ -1,52 +1,59 @@
 import book from '../assets/book.jpg';
+import child from '../assets/child.jpg';
+import classroom from '../assets/classroom.jpg';
+import ducks from '../assets/ducks.jpg';
+import piano from '../assets/piano.jpg';
+import rugby from '../assets/rugby.jpg';
+import sports from '../assets/sports.jpg';
+import uniform from '../assets/uniform.jpg';
+
 
 const files = [
     {
-      title: 'Parents',
-      source:
-        '/src/assets/book.jpg',
+      title: 'Syllabus',
+      source: book,
         color: "bg-orange"
     },
     {
       title: 'Curriculum',
       source:
-      '/src/assets/child.jpg',
+      child,
         color: "bg-primary"
     },
     {
       title: 'Sports',
       source:
-      '/src/assets/rugby.jpg',
+      rugby,
         color: "bg-pink"
     },
     {
       title: 'Uniforms',
       source:
-      '/src/assets/classroom.jpg',
+      uniform,
         color: "bg-pea"
     },
     {
       title: 'Staff',
       source:
-      '/src/assets/ducks.jpg',
+      ducks,
         color: "bg-secondary"
     },
     {
       title: 'PE',
       source:
-      '/src/assets/sports.jpg',
+      sports,
         color: "bg-sky"
     },
     {
       title: 'Piano',
       source:
-      '/src/assets/piano.jpg',
+      piano,
         color: "bg-yellow"
     },
     {
-      title: 'Rugby',
+      title: 'Mission',
       source:
-      '/src/assets/uniform.jpg',
+      classroom,
         color: "bg-purple"
     },
     // More files...
